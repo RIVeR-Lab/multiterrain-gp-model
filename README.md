@@ -2,9 +2,9 @@
 ## Skid-Steer Robot Modeling
 
 ### Introduction
-This repository contains the code associated to our paper : A Probabilistic Motion Model for Skid-Steer Wheeled Mobile Robot Navigation on Off-Road Terrains.
+This repository contains the code associated to our ICRA 2024 paper : A Probabilistic Motion Model for Skid-Steer Wheeled Mobile Robot Navigation on Off-Road Terrains.
 
-Paper : (TODO: Add link to arxiv)
+Paper : (TODO: Add link to arxiv till ICRA becomes available)
 
 Video : https://www.youtube.com/watch?v=_rVy2aBp42c
 
@@ -16,7 +16,7 @@ covariance estimates of the robot states can be used for Risk-Aware Motion Plann
 Begin by cloning this repository and setting up a Python virtual environment.
 
 ```
-git clone git@github.com:trivediana/jackal_robot_modeling.git (TODO: add the right link)
+git clone git@github.com:RIVeR-Lab/jackal_robot_modeling.git
 python3 -m venv venv
 source venv/bin/activate
 pip3 install -r requirments.txt
