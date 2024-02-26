@@ -6,7 +6,7 @@ This repository contains the code associated to our paper : A Probabilistic Moti
 
 Paper : (TODO: Add link to arxiv)
 
-Video : (TODO: Add link to RIVeR youtube)
+Video : https://www.youtube.com/watch?v=_rVy2aBp42c
 
 We train Gaussian Process Regression models to predict future robot linear and angular velocity states for different terrains. The outputs of multiple models
 are then fused online using a convex optimization formulation allowing the motion model to generalize to different/unseen terrain conditions. The resultant mean and
