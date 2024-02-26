@@ -1,0 +1,10 @@
+torch 
+gpytorch 
+numpy 
+pandas
+pyarrow 
+scipy 
+scikit-learn 
+casadi
+gdown
+cvxpy
