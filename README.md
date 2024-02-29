@@ -4,7 +4,7 @@
 ### Introduction
 This repository contains the code associated to our ICRA 2024 paper : A Probabilistic Motion Model for Skid-Steer Wheeled Mobile Robot Navigation on Off-Road Terrains.
 
-Paper : https://arxiv.org/abs/2402.18065
+Paper : todo
 
 Video : https://www.youtube.com/watch?v=_rVy2aBp42c
 
