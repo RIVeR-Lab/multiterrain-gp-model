@@ -42,5 +42,10 @@ python3 src/probabilistic_dynamics.py
 ### Citation
 If you find this code useful, please consider citing
 ```
-TODO: Add link here
+@article{trivedi2024probabilistic,
+  title={A Probabilistic Motion Model for Skid-Steer Wheeled Mobile Robot Navigation on Off-Road Terrains},
+  author={Trivedi, Ananya and Zolotas, Mark and Abbas, Adeeb and Prajapati, Sarvesh and Bazzi, Salah and Pad{\i}r, Task{\i}n},
+  journal={arXiv preprint arXiv:2402.18065},
+  year={2024}
+}
 ```
