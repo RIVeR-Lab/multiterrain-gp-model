@@ -60,7 +60,7 @@ class ModelingParameters:
     num_robot_control_actions = 2
 
     # Selected uncertainty propagation method
-    uncertainty_propagation_method = "NonLinear" #"NonLinear"
+    uncertainty_propagation_method = "NonLinear" #"Linear"
 
     # Contribution of the mean sigma point weight to the next state prediction
     # The contribution of each of the remaining 4*n, n=5 sigma points is thus:

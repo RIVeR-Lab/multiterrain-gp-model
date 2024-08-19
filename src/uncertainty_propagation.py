@@ -9,13 +9,6 @@ from configurations import ModelingParameters as JP
 import numpy as np
 
 
-
-# Precomputed value of theta
-theta = np.load( os.path.join(os.getcwd(),"models/theta.npy") )
-
-theta1 = theta[0]; theta2 = theta[1]; theta3 = theta[2]
-theta4 = theta[3]; theta5 = theta[4]; theta6 = theta[5]
-
 # Delta t to propagate the dynamics by
 dt = JP.resampled_dt_s
 
@@ -33,6 +26,12 @@ def nominal_dynamics_ode(x,u):
     Returns:
         nom_dyn (ca.MX) -- Nominal dynamics in continuous form
     """
+    
+    # Precomputed value of theta
+    theta = np.load( os.path.join(os.getcwd(),"models/theta.npy") )
+
+    theta1 = theta[0]; theta2 = theta[1]; theta3 = theta[2]
+    theta4 = theta[3]; theta5 = theta[4]; theta6 = theta[5]
     
     # Robot state space
     X = x[0]; Y = x[1] ; psi = x[2] ; v = x[3] ; omega = x[4]

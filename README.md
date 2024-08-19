@@ -16,7 +16,7 @@ covariance estimates of the robot states can be used for Risk-Aware Motion Plann
 Begin by cloning this repository and setting up a Python virtual environment.
 
 ```
-git clone git@github.com:RIVeR-Lab/jackal_robot_modeling.git
+git clone git@github.com:RIVeR-Lab/multiterrain-gp-model.git
 python3 -m venv venv
 source venv/bin/activate
 pip3 install -r requirments.txt
@@ -27,7 +27,6 @@ Begin by cloning this repository and downloading the dataset as follows. If you 
 
 ```
 sudo apt-get install unzip
-cd jackal_robot_modeling/
 gdown 10YAQsaLhTnNbBER5beItwMlTBYkLmqTC
 unzip -qq data.zip
 rm -rf data.zip
