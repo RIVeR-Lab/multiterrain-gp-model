@@ -8,3 +8,4 @@ scikit-learn
 casadi
 gdown
 cvxpy
+matplotlib

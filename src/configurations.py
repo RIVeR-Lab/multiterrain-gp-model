@@ -48,10 +48,10 @@ class ModelingParameters:
     trained_gp_types_list = ["Linear","Angular"]
 
     # Number of GMM clusters to consider for training point selection
-    gp_clustering_num_train_pts = 500
+    gp_clustering_num_train_pts = 300
 
     # Number of GMM clusters to consider for testing point selection
-    gp_clustering_num_test_pts = 500
+    gp_clustering_num_test_pts = 300
 
     # Number of robot states
     num_robot_states = 5
